@@ -1,0 +1,4 @@
+#!/usr/bin/env python
+
+import pdftable
+pdftable.command_line()

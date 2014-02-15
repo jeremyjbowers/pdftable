@@ -1,0 +1,11 @@
+Python module and command line utility that analyzes XML output from the
+program pdftohtml in order to extract tables from PDF files. Outputs CSV.
+
+For example:
+
+pdftohtml -xml -stdout file.pdf | pdftable -f file%d.csv
+
+
+See also 'pdftable -h' and http://sourceforge.net/projects/pdftable
+
+Author: Kyle Cronan <kyle@pbx.org>
